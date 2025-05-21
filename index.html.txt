@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidhi Srivastava | Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    body {
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #6C63FF;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #4a45b4;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-left: 5px solid #6C63FF;
+      padding-left: 0.5rem;
+    }
+    .skills, .platforms {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      background: #6C63FF;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+    .project {
+      margin-bottom: 1.5rem;
+    }
+    footer {
+      background: #eee;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vidhi Srivastava</h1>
+    <p>Aspiring Software Engineer | B.Tech Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#platforms">Platforms</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I’m Vidhi Srivastava, a passionate B.Tech student aiming to become a skilled Software Engineer. I love solving real-world problems using code and am building my skills across platforms and technologies.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="tag">C/C++</div>
+      <div class="tag">Python</div>
+      <div class="tag">Java</div>
+      <div class="tag">HTML</div>
+      <div class="tag">CSS</div>
+      <div class="tag">JavaScript</div>
+      <div class="tag">Git</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <h3>Gujarati Sign Language Translator</h3>
+      <p>A real-time sign language translator app for deaf/mute students in Gujarat using MediaPipe and OpenCV.</p>
+    </div>
+    <div class="project">
+      <h3>Time Management Tool</h3>
+      <p>A Java-based goal-setting and time management tool for students.</p>
+    </div>
+  </section>
+
+  <section id="platforms">
+    <h2 class="section-title">Platforms I Use</h2>
+    <div class="platforms">
+      <div class="tag">GitHub</div>
+      <div class="tag">LeetCode</div>
+      <div class="tag">GeeksforGeeks</div>
+      <div class="tag">HackerRank</div>
+      <div class="tag">VS Code</div>
+      <div class="tag">ChatGPT</div>
+      <div class="tag">Google Colab</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourgithub" target="_blank">github.com/yourgithub</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/yourlinkedin" target="_blank">linkedin.com/in/yourlinkedin</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Vidhi Srivastava. All rights reserved.
+  </footer>
+
+</body>
+</html>
